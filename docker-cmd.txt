@@ -1,0 +1,7 @@
+Doesn't appear to update though. The volume pwd not ref correctly
+
+docker run -it -p 3000:3000 -v /app/node_modules -v ${PWD}:/app -e CHOKIDAR_USEPOLLING=true c1edd5774cee
+
+docker run -it -p 3000:3000 -v /app/node_modules -v ${PWD}:/app e19e50eca1b9
+
+docker run -it -p 8080:80 <id>
